@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+🛡️ AI-GUARDIAN — Smart Security Dashboard
 
-## Project info
+AI-GUARDIAN is a modern, AI-powered web dashboard that acts as a centralized command center for biometric security management. It integrates real-time monitoring, device analytics, and face authentication — built with a clean, responsive, and scalable UI.
 
-**URL**: https://lovable.dev/projects/5bde21c8-65b5-4d68-9eb5-fdf1d1cc8109
+Live Demo: https://smartsecuritygaurd.vercel.app/
 
-## How can I edit this code?
+Features
 
-There are several ways of editing your application.
+🔐 Face Authentication – Enroll and authenticate users via webcam
+💻 Device Management – View device cards and statuses
+📊 Analytics Dashboard – Visualize activity and trends
+🚨 Alerts & Notifications – Real-time status updates
+📱 Responsive UI – Works seamlessly on all devices
 
-**Use Lovable**
+🧠 Tech Stack
+Category	 Tools
+Framework	 React 18 + TypeScript + Vite
+Styling	     Tailwind CSS + tailwind-animate
+Components	 Radix UI (shadcn-style)
+Icons	     lucide-react
+State & Data	@tanstack/react-query
+Forms & Validation	react-hook-form + zod
+Routing	     react-router-dom
+Charts	     Recharts
+Notifications	sonner
+Camera Access	react-webcam
+Date Utils	date-fns
+🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5bde21c8-65b5-4d68-9eb5-fdf1d1cc8109) and start prompting.
+# Clone the repository
+git clone https://github.com/24211a66a7-jpg/smartsecuritygaurd.git
+cd smartsecuritygaurd
 
-Changes made via Lovable will be committed automatically to this repo.
+# Install dependencies
+npm install
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+# Build for production
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+Runs at → http://localhost:8080
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📘 Why I Built This
 
-## What technologies are used for this project?
+Built to explore how AI and biometrics can power smart security interfaces.
+This project demonstrates full-stack integration, responsive UI design, and modular component-driven architecture — ideal for real-world security systems or demo prototypes.
 
-This project is built with:
+🤝Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome — open a PR for small fixes or an issue for major features.
 
-## How can I deploy this project?
+📄License
 
-Simply open [Lovable](https://lovable.dev/projects/5bde21c8-65b5-4d68-9eb5-fdf1d1cc8109) and click on Share -> Publish.
+Licensed under the MIT License.
 
-## Can I connect a custom domain to my Lovable project?
+👨‍💻Author
 
-Yes, you can!
+Developed by: YASHWANTH MARAM
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Role: Full Stack Developer | AI Enthusiast
+Deployment: AI-GUARDIAN Dashboard
